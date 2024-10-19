@@ -1,0 +1,12 @@
+[audio_data, fs] = audioread('6.wav');
+L = length(audio_data);
+x = audio_data;
+N = length(audio_data);
+DFT_X = fft(x, N);
+frequencies = (0:N-1)*(fs/N);
+magnitudes = abs(DFT_X);
+figure;
+plot(frequencies,magnitudes);
+xlabel('Frequency (Hz)');
+ylabel('|DFT_X[k]|');
+title('Magnitude Spectrum of Audio Signal');
