@@ -1,0 +1,13 @@
+figure;
+subplot(3,1,1);
+plot(0:300,x1(1:301));
+xlabel('n');
+ylabel('x1[n]');
+subplot(3,1,2);
+plot(0:300,x2(1:301));
+xlabel('n');
+ylabel('x2[n]');
+subplot(3,1,3);
+plot(0:300,x3(1:301));
+xlabel('n');
+ylabel('x3[n]')
