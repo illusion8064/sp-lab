@@ -1,3 +1,7 @@
-# Signal Processing Lab Resources
+# signal processing lab resources
 
-This repository contains MATLAB codes related to the lab of the 2-1 course Signal Processing.
+this repository contains matlab  codes related to the lab of the 2-1 course signal processing.
+
+## contributors
+priyanshi jain  
+aanchal mundhada
